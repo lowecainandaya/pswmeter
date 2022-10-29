@@ -1,0 +1,21 @@
+{
+  "name": "@fntools/pswmeter",
+  "version": "0.0.0",
+  "description": "Is a simple JS plugin for adding strength meter to password input. This plugin checks password input to meet the following requirements:",
+  "main": "pswmeter.js",
+  "module": "./esm/pswmeter.js",
+  "browser": "docs/pswmeter.min.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "live-server --open=docs --port=3000 -q",
+    "deploy": "npm publish --access public"
+  },  
+  "keywords": [
+    "password-strength",
+    "password"
+    ],
+  "author": "",
+  "license": "MIT"
+}
